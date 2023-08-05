@@ -23,7 +23,7 @@
             <div class="sm:flex grid sm:grid-cols-2 grid-cols-1 sm:space-x-2 justify-between sm:space-y-0 space-y-6">
                 <div class="flex-col max-w-xl w-full sm:w-1/2">
                     <div class="bg-white shadow sm:rounded-lg w-full overflow-auto p-4 sm:p-8">
-                        <x-form.post method="post" action="{{ route('admin.role.update', $role) }}">
+                        <x-form.post method="patch" action="{{ route('admin.role.update', $role) }}">
                             <div>
                                 <x-form.label for="name" :value="__('Name:')" />
                                 <x-form.input id="name" name="name" type="text" class="mt-1 block w-full" :value="old('name', $role->name)" required autocomplete="name" />
