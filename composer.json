@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Romanlazko\\Slurp\\Providers\\SlurpServiceProvider"
+                "Romanlazko\\Slurp\\App\\Providers\\SlurpServiceProvider"
             ]
         }
     },
