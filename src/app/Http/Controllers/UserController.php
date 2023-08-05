@@ -91,7 +91,7 @@ class UserController extends Controller
 
         $user->update($attributes);
 
-        $user->syncRoles($request->role);
+        $user->assignRole($request->roles);
 
         return redirect()->route('admin.user.index')->with([
             'ok' => true,

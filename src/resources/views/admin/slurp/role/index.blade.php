@@ -29,7 +29,7 @@
                         <x-table.th>Name</x-table.th>
                         <x-table.th>Guard name</x-table.th>
                         <x-table.th>Permissions</x-table.th>
-                        <x-table.th></x-table.th>
+                        <x-table.th>Action</x-table.th>
                     </tr>
                 </x-table.thead>
                 <x-table.tbody>

@@ -28,7 +28,7 @@
                         <x-table.th>id</x-table.th>
                         <x-table.th>Name</x-table.th>
                         <x-table.th>Comment</x-table.th>
-                        <x-table.th></x-table.th>
+                        <x-table.th>Action</x-table.th>
                     </tr>
                 </x-table.thead>
                 <x-table.tbody>

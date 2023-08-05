@@ -37,7 +37,7 @@
                                     <x-form.label for="{{ $role->id }}">
                                         <div class="w-full flex items-center space-x-2">
                                             <div class="flex-col">
-                                                <x-form.input id="{{ $role->id }}" name="role" type="radio" value="{{ $role->id }}" :checked="$user->hasRole($role)"/>
+                                                <x-form.input id="{{ $role->id }}" name="roles" type="checkbox" value="{{ $role->id }}" :checked="$user->hasRole($role)"/>
                                             </div>
                                             <div class="flex-col">
                                                 {{ $role->name }} 
