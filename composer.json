@@ -1,0 +1,31 @@
+{
+    "name": "romanlazko/slurp",
+    "description": "Spatie Laravel User Role Permission",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "romanlazko",
+            "email": "romanlazko@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "spatie/laravel-permission": "^5.10",
+        "laravel/breeze": "^1.22"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Romanlazko\\Slurp\\Providers\\SlurpServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Romanlazko\\Slurp\\": "src/",
+            "Romanlazko\\Slurp\\App\\": "src/app/",
+            "Romanlazko\\Slurp\\Database\\Seeders\\": "src/database/seeders/"
+        }
+    }
+}
