@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "php": "^8.1",
-        "spatie/laravel-permission": "^5.10",
+        "php": "^8.2",
+        "spatie/laravel-permission": "^6",
         "laravel/breeze": "^1.22"
     },
     "extra": {
