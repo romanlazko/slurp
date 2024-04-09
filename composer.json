@@ -12,7 +12,7 @@
     "require": {
         "php": "^8.2",
         "spatie/laravel-permission": "^6",
-        "laravel/breeze": "^1.22"
+        "laravel/breeze": ">=2.0"
     },
     "extra": {
         "laravel": {
